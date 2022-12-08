@@ -6,10 +6,12 @@
 
 body {
   font-family: "Outfit", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(30, 38%, 92%);
 }
 
 .main-div {
-  background-color: hsl(30, 38%, 92%);
   display: flex;
   justify-items: center;
   flex-direction: column;
