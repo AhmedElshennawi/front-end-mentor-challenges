@@ -84,7 +84,7 @@ h2 {
   font-weight: normal;
 }
 
-button {
+.button {
   background-color: hsl(158, 36%, 37%);
   border-radius: 10px;
   border: none;
@@ -93,8 +93,8 @@ button {
   margin: 5px 5px 15px;
 }
 
-button :hover {
-  color: rgb(81, 194, 156);
+.button:hover {
+  background-color: rgb(3, 75, 50);
 }
 
 footer {
