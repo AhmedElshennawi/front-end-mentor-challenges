@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+}
+
+.main-div {
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+}
+
+.sub-div {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+}
+article {
+  display: grid;
+  padding: 10px 20px;
+  background-color: white;
+  width: 255px;
+  height: 450px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.page-image {
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: gray;
+  letter-spacing: 5px;
+  font-family: "Outfit", sans-serif;
+  font-weight: normal;
+  align-self: flex-end;
+}
+
+h2 {
+  font-weight: bold;
+  font-family: "Fraunces", serif;
+  width: 180px;
+  margin-top: 10px;
+}
+
+.content {
+  color: hsl(228, 12%, 48%);
+  font-size: 14px;
+}
+
+.price {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.new-price {
+  color: hsl(158, 36%, 37%);
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Fraunces", serif;
+  justify-self: center;
+  align-self: center;
+}
+
+.old-price {
+  color: hsl(228, 12%, 48%);
+  justify-self: center;
+  align-self: center;
+  text-decoration: line-through;
+  font-weight: normal;
+}
+
+button {
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 10px;
+  border: none;
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+  margin: 5px 5px 15px;
+}
+
+button :hover {
+  color: rgb(81, 194, 156);
+}
+
+footer {
+  margin-top: 20px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
