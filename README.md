@@ -19,6 +19,6 @@ Frontend Mentor is the front-end coding challenge by HTML, CSS, and JavaScript.
 ## The third challenge,
 
 <p>Product preview card component</p>
-<a href="https://ahmedelshennawi.github.io/front-end-mentor-challenges/03-NFT%20preview%20card%20component/" target="_blank">PREVIEW SITE</a>
+<a href="https://ahmedelshennawi.github.io/front-end-mentor-challenges/03-NFT%20preview%20card%20component/" rel="linke" target="_blank">PREVIEW SITE</a>
 
 <a href="https://github.com/AhmedElshennawi/front-end-mentor-challenges/tree/main/03-NFT%20preview%20card%20component" target="_blank">VIEW CODE</a>
