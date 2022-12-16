@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: hsl(229, 57%, 11%);
+  background-image: url(./images/bg-desktop.png);
+  background-position-y: 350px;
+  background-repeat: no-repeat;
+  /* background-position: bottom; */
+  font-size: 14px;
+  background-attachment: fixed;
+  font-family: "Raleway", sans-serif;
+}
+
+main {
+  display: flex;
+  gap: 25px;
+  align-items: flex-end;
+}
+
+article {
+  background-color: hsl(228, 56%, 26%);
+  padding: 30px 25px;
+  border-radius: 10px;
+  width: 440px;
+  color: hsl(229, 7%, 55%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.logo {
+  background-color: hsl(228, 56%, 26%);
+}
+
+.picture-part {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.icon {
+  background-color: hsl(229, 57%, 11%);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.picture-main {
+  background-color: hsl(228, 56%, 26%);
+  padding: 25px 25px;
+  border-radius: 10px;
+  border-top-right-radius: 60px;
+}
+
+.picture-part {
+  padding-right: 60px;
+}
+
+.massage {
+  display: inline;
+}
+
+#comment-box {
+  background-color: #fafafa;
+  padding: 10px;
+  color: rgb(15, 0, 0);
+  float: right;
+  position: absolute;
+  height: 65px;
+  width: 150px;
+  bottom: 410px;
+  left: 63%;
+  border-radius: 10px 10px 0 10px;
+  text-align: center;
+}
+
+#comment-box::after {
+  content: "";
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  bottom: -13px;
+  left: 90%;
+  background-color: #f4f4f6;
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+}
+
+.bar {
+  content: " ";
+  display: block;
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 20px;
+  margin: 15px 0 5px 0;
+  height: 10px;
+}
+
+.storage-used {
+  background: linear-gradient(90deg, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+  border-radius: 20px;
+  height: 10px;
+  width: calc((815 / 1000) * 100%);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.storage-used::after {
+  content: "";
+  border: 4px solid white;
+  border-radius: 50px;
+}
+
+.end-gb {
+  float: right;
+  display: inline-block;
+}
+
+.start-gb {
+  display: inline-block;
+}
+
+footer {
+  margin-top: 15px;
+}
